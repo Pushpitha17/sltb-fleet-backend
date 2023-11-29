@@ -1,0 +1,81 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+//planetscale 
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+//vercel
+// datasource db {
+//   provider  = "postgresql"
+//   url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+//   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+// }
+
+model Bus {
+  id         Int        @id @default(autoincrement())
+  prefix     RegPrefix? @relation(fields: [prefixId], references: [id])
+  prefixId   Int?
+  R_No       String?
+  R_from     String?
+  img_url    String
+  articl_url String?
+  model      Model      @relation(fields: [modelId], references: [id])
+  modelId    Int
+  type       Type       @relation(fields: [typeId], references: [id])
+  typeId     Int
+  depot      Depot      @relation(fields: [depotId], references: [id])
+  depotId    Int
+  createdAt  DateTime   @default(now())
+  updateddAt DateTime?
+
+  @@index([depotId])
+  @@index([prefixId])
+  @@index([modelId])
+  @@index([typeId])
+}
+
+model RegPrefix {
+  id     Int    @id @default(autoincrement())
+  prefix String
+  buses  Bus[]
+}
+
+model Model {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  buses Bus[]
+  types Type[]
+}
+
+model Type {
+  id      Int    @id @default(autoincrement())
+  name    String
+  buses   Bus[]
+  model   Model  @relation(fields: [modelId], references: [id])
+  modelId Int
+
+  @@index([modelId])
+}
+
+model Depot {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  buses Bus[]
+}
+
+model User {
+  id           Int     @id @default(autoincrement())
+  email        String  @unique
+  username     String
+  password     String
+  salt         String
+  sessionToken String?
+}

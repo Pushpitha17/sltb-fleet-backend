@@ -1,0 +1,686 @@
+[
+  {
+    "name": "D",
+    "model": "Mercedes Benz - L3500"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Comet"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - O 321H"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - OP 312"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Olympian"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - RTL"
+  },
+  {
+    "name": "A",
+    "model": "AEC - RT"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - OP 312 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Albion - Aberdonian"
+  },
+  {
+    "name": "B",
+    "model": "Ikarus 31"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Tiger Cub"
+  },
+  {
+    "name": "B",
+    "model": "Fiat - 642 RN 2"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Comet CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Tiger PS1"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Tiger Cub CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Albion"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 322/42 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 321/42 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Leyland - Comet CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Leyland - Comet CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Mercedes Benz - LP 311/36 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Mercedes Benz - LP 322/36 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Morris"
+  },
+  {
+    "name": "D",
+    "model": "B.M.C."
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Tiger OPS"
+  },
+  {
+    "name": "B",
+    "model": "AEC - Ranger"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 322/48 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 322/36 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "AEC - RT Convert as a single deck"
+  },
+  {
+    "name": "B",
+    "model": "AEC - RT"
+  },
+  {
+    "name": "A",
+    "model": "AEC - RT Convert as a single deck"
+  },
+  {
+    "name": "E",
+    "model": "Fiat - OM Tigretto CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "AEC - RFW"
+  },
+  {
+    "name": "D",
+    "model": "Fiat - 650 E CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Fiat - 650 EL 2 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Fiat - 650 EL CTB Body"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - RTW"
+  },
+  {
+    "name": "D",
+    "model": "Tata Mercedes Benz - LP 312/36 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Tata Mercedes Benz - LP 312/48 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1210/36 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Tata Mercedes Benz - LP 312/42 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 1113/42 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - LP 1113/48 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Mercedes Benz - LP 1113/48 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Mercedes Benz - LP 1113/36 CTB Body"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - RTL Convert as a single deck"
+  },
+  {
+    "name": "D",
+    "model": "Tata Mercedes Benz - LP 312/42 CTB Body"
+  },
+  {
+    "name": "E",
+    "model": "Tata Mercedes Benz - LP 312/32 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Comet CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Comet CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Comet CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Austin - 830 WF"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1210/42 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Lanka 1 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - TX 50B CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Isuzu - TX 50B CTB Body"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 210 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1210/52 CTB Body"
+  },
+  {
+    "name": "E",
+    "model": "Tata - LP 1210/32 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Shepal 452 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - BF 50 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Viking 154 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1210/42 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 CTB Body"
+  },
+  {
+    "name": "B+",
+    "model": "Tata - LPO 1210/55 CTB Body"
+  },
+  {
+    "name": "C",
+    "model": "Mitsubishi - Fuso"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - Jounery K"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - BF 50 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 Old"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1210/42 Old"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1210/36 Old"
+  },
+  {
+    "name": "B+",
+    "model": "Tata - LPO 1210/55"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LPO 1210/55"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - BF 40 CTB Body"
+  },
+  {
+    "name": "D",
+    "model": "Isuzu - BF 30"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - BF 40"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Boxer CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - JCR 500"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - Clysedale VK55 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - OF 1113/44 CTB Body"
+  },
+  {
+    "name": "A",
+    "model": "Ashok Leyland - Tiger CTB Body"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 193 CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Cheeta"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Viking 154"
+  },
+  {
+    "name": "E",
+    "model": "Isuzu - TDL 454"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Tiger TL 11"
+  },
+  {
+    "name": "B",
+    "model": "Leyland - Victory 11"
+  },
+  {
+    "name": "A",
+    "model": "AEC - Route Master"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - ECR"
+  },
+  {
+    "name": "E",
+    "model": "Tata - LP 1210/32"
+  },
+  {
+    "name": "C",
+    "model": "TAM - 130A CTB Body"
+  },
+  {
+    "name": "B",
+    "model": "Hyundai - FB 500"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LPO 1313/47"
+  },
+  {
+    "name": "B",
+    "model": "Ford Simson"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - ELR 500"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Chital"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 909/36 Old"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - OF 1113/44 Kesco"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1210/36 New"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 New"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 210"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LPO 1313/37"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Comet Minor Old"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 Kesco"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 Kesco"
+  },
+  {
+    "name": "B",
+    "model": "Mercedes Benz - OF 1113/44 Dimo"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1210/42 New"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LPO 1313/47 Dimo"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 210"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 Dimo"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Tusker"
+  },
+  {
+    "name": "B",
+    "model": "Great Wall"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 Latec"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 909/36 Latec"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1210/52 Wesco"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Comet Minor Old"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 909/36"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - MT 111 Wesco Semi Luxury"
+  },
+  {
+    "name": "B+",
+    "model": "Tata - LPO 1313/55 Wesco Semi Luxury"
+  },
+  {
+    "name": "B",
+    "model": "Isuzu - MT 112 Wesco A.C."
+  },
+  {
+    "name": "B",
+    "model": "Tata - LPO 1313/55 Wesco Semi Luxury"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 Ekala"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1510/52 Latec"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1510/52 Dimo"
+  },
+  {
+    "name": "C",
+    "model": "Trans Mark 1"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Viking 193"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1510/52 Old"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 Colombo Rider"
+  },
+  {
+    "name": "D",
+    "model": "Tata - LP 1510/36"
+  },
+  {
+    "name": "D",
+    "model": "Ashok Leyland - Comet Minor New"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 Hino Power"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - Cubic LV 324K"
+  },
+  {
+    "name": "C",
+    "model": "Mitsubishi - U-MP218K-KAI"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - Cubic ULV324L"
+  },
+  {
+    "name": "C",
+    "model": "Hino - U-HT2MLAAKAI"
+  },
+  {
+    "name": "A",
+    "model": "MCW"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - Fleet Line"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1510/52 New"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 222 Hino Power"
+  },
+  {
+    "name": "C",
+    "model": "Isuzu - Cubic ULV870L"
+  },
+  {
+    "name": "C",
+    "model": "Hino - HU2ML"
+  },
+  {
+    "name": "C",
+    "model": "UD - UA440KAN"
+  },
+  {
+    "name": "A",
+    "model": "Leyland - Atlantiyan"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1510/42"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 1510/42"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 193 Turbo"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1510/42 Turbo"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 210 Turbo"
+  },
+  {
+    "name": "B",
+    "model": "Tata - LP 909/49 Macropola"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Lynx 3900"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 222 Turbo A.C."
+  },
+  {
+    "name": "B",
+    "model": "Yutong - ZK6118HGA"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - ULE A.C."
+  },
+  {
+    "name": "E",
+    "model": "Ashok Leyland - Stag"
+  },
+  {
+    "name": "B",
+    "model": "Volvo - 8400"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 222 Turbo"
+  },
+  {
+    "name": "A",
+    "model": "Ashok Leyland - 12M A.C."
+  },
+  {
+    "name": "B",
+    "model": "Yutong - ZK6930H"
+  },
+  {
+    "name": "C",
+    "model": "Tata - LP 1512/42 Turbo"
+  },
+  {
+    "name": "B",
+    "model": "Ashok Leyland - Viking 210 Turbo"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Lynx 4200"
+  },
+  {
+    "name": "B+",
+    "model": "Volvo - 9100"
+  },
+  {
+    "name": "B+",
+    "model": "Ashok Leyland - Viking 210 Turbo (Wide)"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Viking Eagle AC"
+  },
+  {
+    "name": "C",
+    "model": "Micro - Arrow"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Lynx 4200 (New)"
+  },
+  {
+    "name": "A",
+    "model": "Ashok Leyland - 12M"
+  },
+  {
+    "name": "A",
+    "model": "King Long - XMQ6127CY"
+  },
+  {
+    "name": "C",
+    "model": "Ashok Leyland - Lynx Smart 3900"
+  }
+]
