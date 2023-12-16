@@ -3,10 +3,10 @@ const _ = require('lodash')
 
 async function main() {
   let data = await readFile()
-  // createDepots(data)
+  createDepots(data)
   // createTypes(data)
   // createModels(data)
-  createPrefixes(data)
+  // createPrefixes(data)
 }
 
 main()

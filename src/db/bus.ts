@@ -20,7 +20,6 @@ type busCreate = {
   R_from?: string
   img_url?: string
   articl_url?: string
-  createdAt: Date
   updatedAt?: Date | null
 }
 
@@ -63,8 +62,17 @@ export const getBusByID = async (id: number): Promise<Bus> => {
   })
 }
 
+export const checkExisting = async (R_No: string | undefined, prefixId: number | undefined, modelId: number, depotId: number, typeId: number | undefined): Promise<Bus[]> => {
+  return prisma.bus.findMany({
+    where: {
+      R_No,
+      prefixId
+    }
+  })
+}
 
-export const addBus = async (createData: busCreate, modelId: number, depotId: number, typeId: number, prefixId?: number): Promise<Bus> => {
+
+export const addBus = async (createData: busCreate, modelId: number, depotId: number, typeId?: number, prefixId?: number): Promise<Bus> => {
   return prisma.bus.create({
     data: {
       ...createData,

@@ -22,6 +22,15 @@ export const getType = async (id: number): Promise<Type> => {
   })
 }
 
+export const getTypeByModelandName = async (modelId: number, name: string): Promise<Type> => {
+  return prisma.type.findFirst({
+    where: {
+      modelId,
+      name
+    }
+  })
+}
+
 export const createType = async (type: typeWrite): Promise<Type> => {
   return prisma.type.create({
     data: {

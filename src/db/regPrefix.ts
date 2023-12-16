@@ -13,6 +13,14 @@ export const getPrefix = async (id: number): Promise<RegPrefix> => {
   })
 }
 
+export const getPrefixByName = async (prefix: string): Promise<RegPrefix> => {
+  return prisma.regPrefix.findFirst({
+    where: {
+      prefix,
+    }
+  })
+}
+
 export const createPrefix = async (prefix: string): Promise<RegPrefix> => {
   return prisma.regPrefix.create({
     data: {

@@ -13,6 +13,14 @@ export const getDepot = async (id: number): Promise<Depot> => {
   })
 }
 
+export const getDepotByName = async (name: string): Promise<Depot> => {
+  return prisma.depot.findUnique({
+    where: {
+      name,
+    }
+  })
+}
+
 export const createDepot = async (depotName: string): Promise<Depot> => {
   return prisma.depot.create({
     data: {

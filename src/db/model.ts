@@ -13,6 +13,14 @@ export const getModel = async (id: number): Promise<Model> => {
   })
 }
 
+export const getModelByName = async (name: string): Promise<Model> => {
+  return prisma.model.findUnique({
+    where: {
+      name,
+    }
+  })
+}
+
 export const createModel = async (modelName: string): Promise<Model> => {
   return prisma.model.create({
     data: {

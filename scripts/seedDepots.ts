@@ -1,39 +1,25 @@
 import * as DepotService from '../src/db/depot'
-const fs = require('fs').promises
-import type { Depot } from "@prisma/client";
+import readFile from './Helpers/readfile';
 
-
-async function readFile() {
-  // Specify the path to your JSON file
-  const filePath = '../Data/depots.json'
-  let jsonData
-
-  // Read the JSON file
-  try {
-    // Read the contents of the JSON file
-    const data = await fs.readFile(filePath, 'utf8')
-
-    // Parse the JSON data
-    jsonData = JSON.parse(data)
-
-    console.log('JSON data:', jsonData)
-  } catch (error) {
-    console.error('Error reading or parsing JSON file:', error)
-  }
-
-  return jsonData
-}
+const exclude = ["Gaampaha", "Horowpothana", "Kalmunai", "Kareinager", "Kataragama", "Kebithgollewa", "Kebithigollawa", "Kesbawa", "Samanturei"]
 
 async function seedDepots(depots: string[]) {
+  depots.push("No Depot")
 
   for (const depot of depots) {
-    await DepotService.createDepot(depot)
+    const createdDepot = await DepotService.createDepot(depot)
+    console.log(createdDepot)
   }
 
 }
 
 async function main() {
-  const depotData = await readFile()
+  const depotData = await readFile('../Data/depots.json')
+  console.log(depotData.length)
+
+  const filteredDepots = depotData.filter((str: string) => !exclude.includes(str));
+  console.log(filteredDepots.length)
+
   await seedDepots(depotData)
 }
 

@@ -25,12 +25,12 @@ model Bus {
   prefixId   Int?
   R_No       String?
   R_from     String?
-  img_url    String
+  img_url    String?
   articl_url String?
   model      Model      @relation(fields: [modelId], references: [id])
   modelId    Int
-  type       Type       @relation(fields: [typeId], references: [id])
-  typeId     Int
+  type       Type?      @relation(fields: [typeId], references: [id])
+  typeId     Int?
   depot      Depot      @relation(fields: [depotId], references: [id])
   depotId    Int
   createdAt  DateTime   @default(now())
