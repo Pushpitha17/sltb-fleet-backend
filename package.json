@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "dev": "nodemon",
+    "gcp-build": "tsc -p .",
+    "start": "node ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
